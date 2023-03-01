@@ -34,6 +34,7 @@ svg{
 }
 li{
     font-size: 1.5rem;
+    margin-left:5px;
 }
 
 #profile-picture{
@@ -75,10 +76,6 @@ span{
 }
 .certifications{
     line-height: 1.5;
-}
-
-ul {
-    margin-left:5px;
 }
 
 .awards > p {
