@@ -77,6 +77,10 @@ span{
     line-height: 1.5;
 }
 
+ul {
+    margin-left:5px;
+}
+
 .awards > p {
     margin-top: -10px;
     line-height: 1;
