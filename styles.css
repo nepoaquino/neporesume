@@ -1,15 +1,10 @@
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -49,6 +44,7 @@ ul {
   padding: 0;
   margin-left: 20px;
 }
+
 li {
   display: block;
   align-items: center;
@@ -74,6 +70,7 @@ li {
   bottom: auto;
   margin-right: 15px;
 }
+
 .icon {
   position: absolute;
   float: left;
@@ -110,20 +107,22 @@ span {
 .certifications > div > h3 {
   margin-left: 70px;
 }
+
 .certifications {
   line-height: 1.5;
 }
 
 .awards > h3,
 p {
-  margin-left: 30px;
   margin-top: -10px;
   line-height: 1;
 }
+
 .reference {
   font-size: 1rem;
 }
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 740px) {
   #profile-picture {
     float: none;
     display: block;
