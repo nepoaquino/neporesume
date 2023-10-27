@@ -11,21 +11,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 1300px;
-  padding: 0 20px;
+  max-width: 2000px;
+  padding: 0 50px;
 }
 
 #introDuction {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  border: solid red;
+  justify-content: space-between;
 }
 
 #profile-picture {
@@ -54,7 +53,6 @@ h2 {
 /* Skills section */
 
 #skills {
-  border: solid red;
   display: flex;
   justify-content: space-evenly;
 }
@@ -120,7 +118,6 @@ svg {
 
 .experience > .job h3,
 .experience p {
-  border: solid black;
   margin-left: 110px;
 }
 
