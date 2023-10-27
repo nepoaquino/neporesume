@@ -8,27 +8,42 @@
 
 html,
 body {
-  margin: 0 auto;
-  max-width: 95%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(0, 0, 50);
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+#introDuction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid red;
 }
 
 #profile-picture {
-  width: 200px;
-  height: 200px;
-  float: right;
-  position: relative;
-  top: 20px;
+  width: 2.5in;
+  height: 2.5in;
+  display: block;
+}
+#profile-picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-info {
+  display: block;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -39,8 +54,9 @@ h2 {
 /* Skills section */
 
 #skills {
+  border: solid red;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #skills ul {
@@ -50,7 +66,7 @@ h2 {
 #skills li {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 #skills li img {
@@ -66,7 +82,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 p,
@@ -74,14 +90,8 @@ ul {
   font-size: 1.5rem;
 }
 
-ul {
-  font-size: 1.4rem;
-  line-height: 1.5em;
-}
-
 ul li span {
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 svg {
@@ -103,8 +113,17 @@ svg {
   height: auto;
 }
 
+.education li,
+.experience li {
+  margin: 20px 0;
+}
+
 .experience > .job h3,
-.experience p,
+.experience p {
+  border: solid black;
+  margin-left: 110px;
+}
+
 .certifications h3,
 .certifications p,
 .awards > h3,
@@ -114,6 +133,13 @@ svg {
 
 .certifications p {
   margin-top: -25px;
+}
+
+#viewMoreCert {
+  margin: 50px 0;
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
 }
 
 .icon {
@@ -129,26 +155,10 @@ svg {
   margin-top: 50px;
 }
 
-.education > h3,
-.education p {
+.education > h3 {
   margin-left: 120px;
 }
 
 span {
   font-weight: 500;
-}
-
-/* Media queries */
-
-@media only screen and (max-width: 1000px) {
-  #profile-picture {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  h1,
-  .contact-info {
-    text-align: center;
-  }
 }
