@@ -84,7 +84,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 p,
@@ -115,13 +115,16 @@ svg {
   height: auto;
 }
 
+.experience span,
+.education span {
+  font-style: italic;
+}
 .education li,
 .experience li {
   margin: 20px 0;
 }
 
-.experience > .job h3,
-.experience p {
+.experience > .job h3 {
   margin-left: 110px;
 }
 
